@@ -4,4 +4,3 @@ This is a lane detection app which is primarily used for Path Planning for Self 
 
 The different output screens and the final result:
 
-![Lanes Detected](https://github.com/vinayakkgarg/Lane-Detection-App/blob/master/lane_detected.png)
