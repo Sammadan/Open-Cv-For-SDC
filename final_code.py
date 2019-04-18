@@ -4,6 +4,9 @@ import math
 
 def region_of_interest(img, vertices):
     #Blank matrix that has image height/width.
+    mask = np.zeros_like(img)
+    mask_color = (255,255,255)
+       
     #Fill in crop area
     cv2.fillPoly(mask, vertices, mask_color)
     #Returns the image only where mask pixels match
