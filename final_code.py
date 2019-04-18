@@ -3,6 +3,8 @@ import opencv as cv
 import math
 
 
+def region_of_interest(img, vertices):
+
     #Blank matrix that has image height/width.
     mask = np.zeros_like(img)
     mask_color = (255,255,255)
