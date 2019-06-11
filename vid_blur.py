@@ -4,7 +4,7 @@ import cv2
 #Loading the video
 vid = cv2.VideoCapture('Path for source video', 0)
 while(vid.isOpened()):
-    #Reading video frame by frame
+    # Foer Reading video frame by frame
     ret,frame = vid.read()
     #Applying the blur to the video
     gauss = cv2.GaussianBlur(frame, (15,15), 0)
